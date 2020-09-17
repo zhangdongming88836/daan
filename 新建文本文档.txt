@@ -1,0 +1,16 @@
+ 1.深拷贝
+JSON.parse(JSON.stringify()) 
+
+3.数组去重
+var arr=[12323456];
+var arr1=[];
+function fn(arr1){
+  arr.forEach(item => {
+   if(arr1.indexof(item) ==-1){
+    arr1.push(item)
+}     
+     
+}))
+  
+}
+fn();
